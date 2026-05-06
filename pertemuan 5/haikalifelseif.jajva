@@ -1,0 +1,15 @@
+public class haikalifelseif {
+    public static void main(String[] args) {
+        int nilai = 85;
+
+        if (nilai == 100) {
+            System.out.println("Kategori Sempurna!");
+        } else if (nilai >= 95) {
+            System.out.println("Kategori Sangat Memuaskan!");
+        } else if (nilai >= 85) {
+            System.out.println("Kategori Bagus!");
+        } else {
+            System.out.println("Maaf Anda Belum Lulus Yaa!");
+        }
+    }
+}
